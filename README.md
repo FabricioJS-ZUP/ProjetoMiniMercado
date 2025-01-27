@@ -13,10 +13,10 @@ Complete o código: O sistema deve permitir a criação, leitura, atualização 
             
 - 2. Validações a Implementar:
     - Ao criar ou atualizar um produto:
-        - [ ]  Verifique se todos os campos obrigatórios estão preenchidos.
-        - [ ]  Certifique-se de que o nome do produto não exceda os limites de caracteres.
-        - [ ]  Valide que o preço e a quantidade em estoque atendem aos critérios especificados.
-        - [ ]  Garanta que a categoria selecionada seja válida.
+        - [x]  Verifique se todos os campos obrigatórios estão preenchidos.
+        - [x]  Certifique-se de que o nome do produto não exceda os limites de caracteres.
+        - [x]  Valide que o preço e a quantidade em estoque atendem aos critérios especificados.
+        - [x]  Garanta que a categoria selecionada seja válida.
     - Ao excluir um produto:        
         Confirme se o produto realmente existe antes de excluí-lo.
     Entrega:
@@ -24,3 +24,5 @@ Complete o código: O sistema deve permitir a criação, leitura, atualização 
     - Implemente o CRUD com as validações em Java.
     - Crie um pequeno conjunto de testes para validar as regras implementadas.
     - Documente brevemente como executar o sistema e os testes nos endpoints.
+
+# Link do passo a passo de como utilizar este software: https://docs.google.com/document/d/10NNzDF9GcCcY6RDf05VvtLvzxrvLqMBi538ci-V0I2Q/edit?usp=sharing

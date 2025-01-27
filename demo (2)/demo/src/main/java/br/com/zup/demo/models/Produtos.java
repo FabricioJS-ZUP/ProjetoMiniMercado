@@ -16,37 +16,20 @@ public class Produtos {
     private String categoria;
     private int quantidadeemestoque;
 
-    public Produtos(String categoria, String descricao, long id, String nome, double preco, int quantidadeemestoque) {
+    public Produtos() {
+    }
+
+    public Produtos(String categoria, String descricao, String nome, double preco, int quantidadeemestoque) {
         this.categoria = categoria;
         this.descricao = descricao;
-        this.id = id;
         this.nome = nome;
         this.preco = preco;
         this.quantidadeemestoque = quantidadeemestoque;
     }
 
-    public Produtos() {
-
-    }
-
-    public String getCategoria() {
-        return categoria;
-    }
-
-    public void setCategoria(String categoria) {
-        this.categoria = categoria;
-    }
-
+    // Getters e Setters
     public long getId() {
         return id;
-    }
-
-    public int getQuantidadeemestoque() {
-        return quantidadeemestoque;
-    }
-
-    public void setQuantidadeemestoque(int quantidadeemestoque) {
-        this.quantidadeemestoque = quantidadeemestoque;
     }
 
     public void setId(long id) {
@@ -75,5 +58,21 @@ public class Produtos {
 
     public void setDescricao(String descricao) {
         this.descricao = descricao;
+    }
+
+    public String getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
+    }
+
+    public int getQuantidadeemestoque() {
+        return quantidadeemestoque;
+    }
+
+    public void setQuantidadeemestoque(int quantidadeemestoque) {
+        this.quantidadeemestoque = quantidadeemestoque;
     }
 }
